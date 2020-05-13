@@ -85,7 +85,7 @@ body {
     height: 100%;
     border: 10px solid #73BFB5;
     margin: -10px 0px 0px -10px;
-    backface-visibility: visible;
+/*    backface-visibility: visible;*/
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
     transform-style: preserve-3d;
     transform-origin: 0% 50%;
@@ -237,7 +237,7 @@ $size: 0.4;
     background-color: #f4ebdc;
     box-shadow: 0 0 4px #f6efe3, 0 0 4px #f6efe3, 0 0 4px #f6efe3;
     border-radius: 50%;
-    /*    z-index: 1;*/
+        z-index: 1;
 }
 
 
